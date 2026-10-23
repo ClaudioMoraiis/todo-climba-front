@@ -2,6 +2,9 @@
 
 Aplicação web de lista de tarefas (teste técnico Climba).
 
+**App:** https://climba.claudiomoraisdev.com.br  
+**API:** https://api-climba.claudiomoraisdev.com.br
+
 ## Stack
 
 - React + Vite + TypeScript
@@ -25,8 +28,10 @@ App em `http://localhost:5173`
 Configure a API no `.env` (veja `.env.example`):
 
 ```env
-VITE_API_URL=http://localhost:3001
+VITE_API_URL=https://api-climba.claudiomoraisdev.com.br
 ```
+
+Para API local sem tunnel: `VITE_API_URL=http://localhost:3001`
 
 ## Backend
 
